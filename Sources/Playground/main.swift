@@ -188,7 +188,7 @@ struct Options {
     var displayHelp = false
 
     init(arguments: [String] = CommandLine.argumentsExcludingLaunchPath) throws {
-        let defaultTargetPath = "~/Desktop/\(Date().today).playground"
+        let defaultTargetPath = "~/Dropbox/Code/Playgrounds/\(Date().today).playground"
         targetPath = defaultTargetPath
 
         var currentFlag: Flag?
